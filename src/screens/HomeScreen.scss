@@ -8,7 +8,14 @@
     }
     .body_section{
         height:calc(100% - 150px);
-        background-color: red;
+        background-color: rgb(182, 154, 154);
     }
+
+}
+.body_section{
+    border-top-left-radius: 25px;
+       border-top-right-radius: 25px;
+       padding: 15px;
+    
 
 }
