@@ -1,4 +1,4 @@
-import { IonApp,  setupIonicReact } from '@ionic/react';
+import { IonApp,setupIonicReact } from '@ionic/react';
 
 
 /* Core CSS required for Ionic components to work properly */
@@ -36,7 +36,8 @@ setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
-  <AppRouter/>
+      <AppRouter/>
+
   </IonApp>
 );
 
